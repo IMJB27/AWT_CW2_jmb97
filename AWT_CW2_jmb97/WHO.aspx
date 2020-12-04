@@ -16,7 +16,7 @@
                                 <div class="input-group">
                                      <asp:Button CssClass="btn btn-success" ID="btnLoad" runat="server" Text="Load" OnClick="btLoad_Click"></asp:Button>
                                     <asp:DropDownList CssClass="form-control" ID="ddlCountryCode" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlCountryCode_SelectedIndexChanged" Visible="false">
-                                        <asp:ListItem Text="Select" Value=""/> 
+                                        <asp:ListItem Text="Select" Value=" "/> 
                                     </asp:DropDownList>                             
                                 </div>
                                </div>
